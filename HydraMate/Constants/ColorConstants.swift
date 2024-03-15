@@ -11,8 +11,13 @@ import SwiftUI
 
 extension Color {
     
-    static var primaryColor = Color(hexString: "")
+    static let primaryBlueColor = Color(hexString: "#00B4D8")
+    static let secondaryBlueColor = Color(hexString: "#58CFE3")
+    static let lightBlueColor = Color(hexString: "#66CBDC")
+    static let shadowBallColor = Color(hexString: "#ADE8F4")
     
+    static let subHeadlineTextColor = Color(hexString: "#717171")
+    static let blackColor = Color(hexString: "#000000")
 }
 
 
