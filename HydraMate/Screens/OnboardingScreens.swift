@@ -10,9 +10,24 @@ import SwiftUI
 struct OnboardingScreens: View {
     
     @State var currentPage = 0
+    @State var goToHome : Bool = false
+    
     
     var body: some View {
         ZStack{
+            
+            Circle()
+                .blur(radius: 40)
+                .frame(width: 115, height: 119)
+                .foregroundStyle(Color.shadowBallColor)
+                .offset(x: -200, y: -300)
+            
+            Circle()
+                .blur(radius: 40)
+                .frame(width: 115, height: 119)
+                .foregroundStyle(Color.shadowBallColor)
+                .offset(x: 200, y: 200)
+            
             ForEach(OnBoardingScreenTitles.indices, id: \.self) { element in
                 VStack(alignment: .center, spacing: 20){
                     Image(currentPage == element ? "onBoarding-\(element)" : "")
@@ -30,7 +45,7 @@ struct OnboardingScreens: View {
                         
                         Text(currentPage == element ? onBoardingSubTitle[element] : "")
                             .font(.body)
-                            .foregroundStyle(Color.gray)
+                            .foregroundStyle(Color.subHeadlineTextColor)
                             .multilineTextAlignment(.center)
                             .lineLimit(5)
                             .padding(.horizontal, 25)
@@ -39,6 +54,10 @@ struct OnboardingScreens: View {
                     
                     if currentPage == element {
                         Button(action: {
+                            if currentPage == 2 {
+                                goToHome = true
+                            }
+                            
                             if currentPage < 2 {
                                 withAnimation {
                                     currentPage += 1
@@ -53,10 +72,13 @@ struct OnboardingScreens: View {
                         .frame(width: 262, height: 55)
                         .background(Color.primaryBlueColor)
                         .cornerRadius(10)
-                        .padding(.top, 40)
+                        .padding(.top, 60)
                     }
                     
                     
+                }
+                .navigationDestination(isPresented: $goToHome) {
+                    tabViewScreen()
                 }
                 
             }

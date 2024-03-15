@@ -10,6 +10,15 @@
 		CEAF38B22BA40C9F002F8F96 /* OnboardingScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF38B12BA40C9F002F8F96 /* OnboardingScreens.swift */; };
 		CEAF38B52BA40CB6002F8F96 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF38B42BA40CB6002F8F96 /* Constants.swift */; };
 		CEAF38B72BA40F5F002F8F96 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF38B62BA40F5F002F8F96 /* ColorConstants.swift */; };
+		CEAF38B92BA41FDA002F8F96 /* HomeViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF38B82BA41FDA002F8F96 /* HomeViewScreen.swift */; };
+		CEAF38BC2BA42011002F8F96 /* customeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF38BB2BA42011002F8F96 /* customeTabBar.swift */; };
+		CEAF38BE2BA42484002F8F96 /* tabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF38BD2BA42484002F8F96 /* tabViewScreen.swift */; };
+		CEAF38C02BA42545002F8F96 /* statisticsViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF38BF2BA42545002F8F96 /* statisticsViewScreen.swift */; };
+		CEAF38C22BA42550002F8F96 /* settingViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF38C12BA42550002F8F96 /* settingViewScreen.swift */; };
+		CEAF38C42BA425D4002F8F96 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF38C32BA425D4002F8F96 /* Enums.swift */; };
+		CEAF38CB2BA44F06002F8F96 /* circularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF38CA2BA44F06002F8F96 /* circularProgressView.swift */; };
+		CEAF38CD2BA45918002F8F96 /* barChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF38CC2BA45918002F8F96 /* barChartView.swift */; };
+		CEAF38CF2BA4598E002F8F96 /* BarcChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF38CE2BA4598E002F8F96 /* BarcChartModel.swift */; };
 		CEEDF10B2BA2F116009017E9 /* HydraMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDF10A2BA2F116009017E9 /* HydraMateApp.swift */; };
 		CEEDF10D2BA2F116009017E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDF10C2BA2F116009017E9 /* ContentView.swift */; };
 		CEEDF10F2BA2F118009017E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF10E2BA2F118009017E9 /* Assets.xcassets */; };
@@ -22,6 +31,15 @@
 		CEAF38B12BA40C9F002F8F96 /* OnboardingScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreens.swift; sourceTree = "<group>"; };
 		CEAF38B42BA40CB6002F8F96 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CEAF38B62BA40F5F002F8F96 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		CEAF38B82BA41FDA002F8F96 /* HomeViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewScreen.swift; sourceTree = "<group>"; };
+		CEAF38BB2BA42011002F8F96 /* customeTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customeTabBar.swift; sourceTree = "<group>"; };
+		CEAF38BD2BA42484002F8F96 /* tabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabViewScreen.swift; sourceTree = "<group>"; };
+		CEAF38BF2BA42545002F8F96 /* statisticsViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statisticsViewScreen.swift; sourceTree = "<group>"; };
+		CEAF38C12BA42550002F8F96 /* settingViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingViewScreen.swift; sourceTree = "<group>"; };
+		CEAF38C32BA425D4002F8F96 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		CEAF38CA2BA44F06002F8F96 /* circularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circularProgressView.swift; sourceTree = "<group>"; };
+		CEAF38CC2BA45918002F8F96 /* barChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barChartView.swift; sourceTree = "<group>"; };
+		CEAF38CE2BA4598E002F8F96 /* BarcChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcChartModel.swift; sourceTree = "<group>"; };
 		CEEDF1072BA2F116009017E9 /* HydraMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydraMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEDF10A2BA2F116009017E9 /* HydraMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydraMateApp.swift; sourceTree = "<group>"; };
 		CEEDF10C2BA2F116009017E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				CEAF38B12BA40C9F002F8F96 /* OnboardingScreens.swift */,
+				CEAF38BD2BA42484002F8F96 /* tabViewScreen.swift */,
+				CEAF38B82BA41FDA002F8F96 /* HomeViewScreen.swift */,
+				CEAF38BF2BA42545002F8F96 /* statisticsViewScreen.swift */,
+				CEAF38C12BA42550002F8F96 /* settingViewScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -57,6 +79,24 @@
 				CEAF38B62BA40F5F002F8F96 /* ColorConstants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		CEAF38BA2BA42002002F8F96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF38BB2BA42011002F8F96 /* customeTabBar.swift */,
+				CEAF38CA2BA44F06002F8F96 /* circularProgressView.swift */,
+				CEAF38CC2BA45918002F8F96 /* barChartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEAF38C72BA42CB2002F8F96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF38CE2BA4598E002F8F96 /* BarcChartModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		CEEDF0FE2BA2F116009017E9 = {
@@ -78,14 +118,17 @@
 		CEEDF1092BA2F116009017E9 /* HydraMate */ = {
 			isa = PBXGroup;
 			children = (
-				CEAF38B32BA40CA6002F8F96 /* Constants */,
 				CEEDF10E2BA2F118009017E9 /* Assets.xcassets */,
+				CEAF38B32BA40CA6002F8F96 /* Constants */,
 				CEEDF10C2BA2F116009017E9 /* ContentView.swift */,
+				CEAF38C32BA425D4002F8F96 /* Enums.swift */,
 				CEEDF1152BA2F118009017E9 /* HydraMate.xcdatamodeld */,
 				CEEDF10A2BA2F116009017E9 /* HydraMateApp.swift */,
+				CEAF38C72BA42CB2002F8F96 /* Model */,
 				CEEDF1132BA2F118009017E9 /* Persistence.swift */,
 				CEEDF1102BA2F118009017E9 /* Preview Content */,
 				CEAF38B02BA40C84002F8F96 /* Screens */,
+				CEAF38BA2BA42002002F8F96 /* Views */,
 			);
 			path = HydraMate;
 			sourceTree = "<group>";
@@ -168,13 +211,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAF38CB2BA44F06002F8F96 /* circularProgressView.swift in Sources */,
 				CEEDF1142BA2F118009017E9 /* Persistence.swift in Sources */,
+				CEAF38CD2BA45918002F8F96 /* barChartView.swift in Sources */,
 				CEEDF1172BA2F118009017E9 /* HydraMate.xcdatamodeld in Sources */,
+				CEAF38BC2BA42011002F8F96 /* customeTabBar.swift in Sources */,
 				CEAF38B72BA40F5F002F8F96 /* ColorConstants.swift in Sources */,
+				CEAF38B92BA41FDA002F8F96 /* HomeViewScreen.swift in Sources */,
 				CEAF38B22BA40C9F002F8F96 /* OnboardingScreens.swift in Sources */,
+				CEAF38C02BA42545002F8F96 /* statisticsViewScreen.swift in Sources */,
+				CEAF38C42BA425D4002F8F96 /* Enums.swift in Sources */,
+				CEAF38CF2BA4598E002F8F96 /* BarcChartModel.swift in Sources */,
 				CEEDF10D2BA2F116009017E9 /* ContentView.swift in Sources */,
 				CEEDF10B2BA2F116009017E9 /* HydraMateApp.swift in Sources */,
+				CEAF38BE2BA42484002F8F96 /* tabViewScreen.swift in Sources */,
 				CEAF38B52BA40CB6002F8F96 /* Constants.swift in Sources */,
+				CEAF38C22BA42550002F8F96 /* settingViewScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

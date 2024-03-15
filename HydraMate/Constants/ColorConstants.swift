@@ -18,6 +18,7 @@ extension Color {
     
     static let subHeadlineTextColor = Color(hexString: "#717171")
     static let blackColor = Color(hexString: "#000000")
+    static let screenBackgroundColor = Color(hexString: "#F1F1F1")
 }
 
 
